@@ -501,20 +501,20 @@ html{
     width: 95%;
 }
 
-/* Team section styling */
+/* experience section styling */
 
-#teams{
+#experience{
     color: #A9ADB8;
     background: #FEC544;
 }
 
-.teams h5{
+.experience h5{
     font-weight: 700;
     color: #07080B;
     transform: translateY(-65px);
 }
 
-.teams h1{
+.experience h1{
     color: #07080B;
     text-align: center;
     font-size: 80px;
@@ -523,7 +523,7 @@ html{
     padding-top: -20px;
 }
 
-.teams .carousel .card{
+.experience .carousel .card{
     background: #07080B;
     border-radius: 5px;
     padding: 25px 35px;
@@ -531,10 +531,10 @@ html{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover{
+.experience .carousel .card:hover{
     background: #15151a;
 }
-.teams .carousel .card .box{
+.experience .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -543,16 +543,16 @@ html{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box{
+.experience .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.experience .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img{
+.experience .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -560,7 +560,7 @@ html{
     border: 5px solid #FEC544;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.experience .carousel .card:hover img{
     border-color: #fff;
 }
 
